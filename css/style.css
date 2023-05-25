@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.calculadora {
+    width: 300px;
+    margin: 40px auto;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px #666;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+.calculadora input {
+    width: 100%;
+    padding: 10px;
+    font-size: 120%;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.calculadora h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.calculadora .botonera {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculadora .botonera button {
+    width: 33.333%;
+    height: 30px;
+    background-color: white;
+}
